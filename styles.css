@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Kodchasan', sans-serif;
+    background-image:linear-gradient(0deg,transparent,rgba(0, 0, 0, 0.3)),linear-gradient(180deg,transparent,rgba(0,0,0,0.3)), url("./pics/BG.jpg");
+    background-position: center;
+    background-size: cover;
+}
+body img{
+    position: absolute;
+    bottom: 0px;
+    right: 100px;
+    width: 260px;
+    height: 520px;
+}
+body h1{
+    position: absolute;
+    top: 110px;
+    color: white;
+}
+.container{
+    position: absolute;
+    inset: 80px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    position: relative;
+    background-color: rgb(255, 217, 0);
+    padding: 120px 100px;
+    border-radius: 5%;
+}
+
+.x{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 24px;
+    left: 20px;
+    z-index: 1;
+}
+.x p{
+    color: rgb(111, 109, 109);
+    font-weight: bold;
+}
+.circle{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 4px;
+    right: 4px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: red;
+    z-index: 1;
+}
+.circle p{
+    color: white;
+}
+.box{
+    position: absolute;
+    border: 1.5px solid rgb(139, 139, 139);
+    inset: 20px 20px 12px 12px;
+    border-radius: 5%;
+}
+.box img{
+    position: absolute;
+    inset: 20px 20px 20px 20px;
+    height: 150px;
+    width: 124px;
+}
+.nameBox{
+    position: absolute;
+    border-top: 1.5px solid rgb(139, 139, 139);
+    inset: 190px 20px 12px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nameBox p{
+    font-weight: 600;
+}
